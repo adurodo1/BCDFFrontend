@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+ 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav,Navbar,NavDropdown,Container,Button,Form,FormControl} from 'react-bootstrap'
+import {Nav,Navbar,Container,Button,Form} from 'react-bootstrap'
 
- import {BrowserRouter as Router,Routes,Route, Link} from "react-router-dom";
+ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import { CoinList } from './Components/CoinList';
 import { CoinSingle } from './Components/CoinSingle';
 import {SearchForm} from './Components/SearchForm'
